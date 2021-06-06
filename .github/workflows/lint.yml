@@ -25,5 +25,12 @@ jobs:
           bundle config path vendor/bundle
           bundle install
       - run: bundle exec jekyll build
+      - name: Cache HTMLProofer
+        id: cache-htmlproofer
+        uses: actions/cache@v2
+        with:
+          path: tmp/.htmlproofer
+          key: ${{ runner.os }}-htmlproofer
       - name: Check for broken links
         run: bundle exec htmlproofer --assume-extension ./_site
+      - run: echo "::remove-matcher owner=htmlproofer::"
