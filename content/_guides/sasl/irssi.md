@@ -11,16 +11,22 @@ find out by running `irssi -v` in your nearest shell).
 
 Recent Irssi versions include built-in SASL support via `/network`:
 
+<!-- markdownlint-disable MD013 -->
     /network add -sasl_username <login> -sasl_password <password> -sasl_mechanism PLAIN liberachat
     /server add -auto -net liberachat -tls -tls_verify irc.libera.chat 6697
     /save
+
+<!-- markdownlint-enable MD013 -->
 
 ## Troubleshooting
 
 To check that the setting was correct, run `/network` and confirm that the
 Libera.Chat entry looks like this:
 
+<!-- markdownlint-disable MD013 -->
     liberachat: sasl_mechanism: plain, sasl_username: TheCoolestNick, sasl_password: (pass)
+
+<!-- markdownlint-enable MD013 -->
 
 All three items (mechanism, username, and password) must be set.
 

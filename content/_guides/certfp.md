@@ -17,7 +17,8 @@ you are using Windows and do not have a copy, you might consider using Cygwin.
 
 You can generate a certificate with the following command:
 
-    openssl req -x509 -new -newkey rsa:4096 -sha256 -days 1096 -nodes -out libera.pem -keyout libera.pem
+    openssl req -x509 -new -newkey rsa:4096 -sha256 -days 1096 -nodes \
+        -out libera.pem -keyout libera.pem
 
 You will be prompted for various pieces of information about the certificate.
 The contents do not matter for our purposes, but `openssl` needs at least one
@@ -55,7 +56,10 @@ Now configure your `/server` entry for Libera.Chat to use this certificate. You
 may need to adapt this example for your existing configuration (the network
 and hostname should match what you already use).
 
+<!-- markdownlint-disable MD013 -->
     /server add -auto -ssl -ssl_cert ~/.irssi/certs/libera.pem -network libera irc.libera.chat 6697
+
+<!-- markdownlint-enable MD013 -->
 
 ### weechat
 

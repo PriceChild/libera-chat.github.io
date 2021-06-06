@@ -14,9 +14,9 @@ To set a mode, use `/mode #channel +(mode)` replacing `(mode)` with the letter
 that corresponds to the mode. To unset a mode, use `/mode #channel -(mode)`
 
 ## Available channel modes
-
+<!-- markdownlint-disable MD013 -->
 {% assign channel_modes = site.data.channelmodes | where_exp:"item","item.restricted != true" %}
-
+<!-- markdownlint-enable MD013 -->
 {%- include modetable.md modes=channel_modes -%}
 
 ## Restricted channel modes
