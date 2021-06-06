@@ -5,7 +5,7 @@ title: Privacy
 This page was last updated 2021-04-24.
 
 Libera Chat is a non-profit organisation based in Sweden.
-Libera Chat operates the Libera Chat IRC network, and the website libera.chat,
+Libera Chat operates the Libera Chat IRC network, and the website Libera.Chat,
 hereinafter referred to as "Libera Chat services".
 
 When it comes to your personal information you may have the right to:
@@ -33,7 +33,7 @@ If you wish to file a complaint see the website of the
 When using Libera Chat services, Libera Chat may work with the following personal
 information about you:
 
-- Nickname on the Libera chat IRC network
+- Nickname on the Libera Chat IRC network
 - E-mail address
 - IP address/hostname
 - Name and project affiliation

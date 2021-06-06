@@ -56,7 +56,7 @@ appear in WHOIS (a 276 numeric).
 
 Libera.Chat is also reachable via
 [Tor](https://www.torproject.org/), bound to some restrictions. You can't
-directly connect to irc.libera.chat via Tor; use the following hidden service
+directly connect to Libera.Chat via Tor; use the following hidden service
 as the server address instead:
 
     libera75jm6of4wxpxt4aynol3xjmbtxgfyjpu34ss4d7r7q2v5zrpyd.onion
