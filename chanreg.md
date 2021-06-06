@@ -110,28 +110,26 @@ before registering, so we can already check whether your project is likely to
 be considered eligible to a registration. Once done, we will need the
 following information from you:
 
-```
-# About your project
-Your project name(s):
-Your project description:
-Can we list your project publicly, such as on the libera.chat website:
-Libera Chat staff member you have discussed this registration with:
-Links to places we can find out more about your project:
-(e.g. website, source code repositories or similar)
+    # About your project
+    Your project name(s):
+    Your project description:
+    Can we list your project publicly, such as on the libera.chat website:
+    Libera Chat staff member you have discussed this registration with:
+    Links to places we can find out more about your project:
+    (e.g. website, source code repositories or similar)
 
-# About you and your staff
-Your NickServ account:
-Your relationship to / position in the project:
-NickServ of group contacts and if they're primary/secondary, hidden/public:
+    # About you and your staff
+    Your NickServ account:
+    Your relationship to / position in the project:
+    NickServ of group contacts and if they're primary/secondary, hidden/public:
 
-# Channels and cloaks (see below)
-Channels you'd like to claim:
-(typically #projectname and #projectname-*)
-Would you like ONLY group contacts to be able to register these channels with
-ChanServ?:
-Cloak namespaces you'd like to claim:
-(typically projectname/*)
-```
+    # Channels and cloaks (see below)
+    Channels you'd like to claim:
+    (typically #projectname and #projectname-*)
+    Would you like ONLY group contacts to be able to register these channels with
+    ChanServ?:
+    Cloak namespaces you'd like to claim:
+    (typically projectname/*)
 
 Group contacts are the members in your project that will be the
 official interface between Libera.Chat and your organization.
@@ -173,26 +171,24 @@ before registering, so we can already check whether your community is likely
 to be considered eligible to a registration. Once done, we will need the
 following information from you:
 
-```
-# About your community
-Your community name(s):
-Your community description:
-Can we list your community publicly, such as on the libera.chat website:
-Libera Chat staff member you have discussed this registration with:
+    # About your community
+    Your community name(s):
+    Your community description:
+    Can we list your community publicly, such as on the libera.chat website:
+    Libera Chat staff member you have discussed this registration with:
 
-# About you and your staff
-Your NickServ account:
-Your relationship / affiliation with the community:
-NickServ of group contacts and if they're primary/secondary, hidden/public:
+    # About you and your staff
+    Your NickServ account:
+    Your relationship / affiliation with the community:
+    NickServ of group contacts and if they're primary/secondary, hidden/public:
 
-# Channels and cloaks (see below)
-Channels you'd like to claim:
-(typically #communityname and #communityname-*)
-Would you like ONLY group contacts to be able to register these channels with
-ChanServ?:
-(The cloaks will be formatted like this:
-about/YourCommunityNameHere/accountname)
-```
+    # Channels and cloaks (see below)
+    Channels you'd like to claim:
+    (typically #communityname and #communityname-*)
+    Would you like ONLY group contacts to be able to register these channels with
+    ChanServ?:
+    (The cloaks will be formatted like this:
+    about/YourCommunityNameHere/accountname)
 
 group contacts are the members in your community that will be the official
 interface between you and Libera.Chat.
