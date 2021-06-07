@@ -1,4 +1,3 @@
-<!-- markdownlint-disable MD033 MD041 -->
 {::nomarkdown}<div class="table">{:/}
 
 <table>
